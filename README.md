@@ -1,11 +1,11 @@
-#  <span style="color:orange">S.C.A.W.I.R </span> 
-<span style="color: orange; font-weight: bold;">S</span>hitty <span style="color: orange; font-weight: bold;">C</span>alculator <span style="color: orange; font-weight: bold;">A</span>pp <span style="color: orange; font-weight: bold;">W</span>ritten <span style="color: orange; font-weight: bold;">I</span>n <span style="color: orange; font-weight: bold;">R</span>ust. (NOT AFFILIATED OR SPONSORED BY RUST, RUST - The language not the compiler)
+# S.C.A.W.I.R
+**S**hitty **C**alculator **A**pp **W**ritten **I**n **R**ust. (NOT AFFILIATED OR SPONSORED BY RUST, RUST - The language not the compiler)
 
  > ###### **Blame it on the new Rust (NOT AFFILIATED OR SPONSORED BY THE RUST FOUNDATION, Rust- the language) Trademark policy**
 <br>
 
-<span style="color:orange"> Scawir </span > is a text editor that seeks for modularity/customization, and is also planned to become a console-graphics framework. <br>
-<span style="color:orange"> Scawir </span > also has a built in scripting language.
+Scawir is a text editor that seeks for modularity/customization, and is also planned to become a console-graphics framework. <br>
+Scawir also has a built in scripting language.
 
 # Shortcuts
 > **Warning**
