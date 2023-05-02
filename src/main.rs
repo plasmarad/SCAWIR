@@ -10,9 +10,9 @@ mod editor;
 
 fn main() {
     // * To enable the new editor, uncomment the following lines:
-    // let mut editor = editor_::Scawir::init();
-    // editor.Run();
+    let mut editor = editor::Scawir::init();
+    editor.Run();
     // * To enable the old editor, uncomment the following lines:
-    editor_::editor();
+    // editor_::editor();
 }
 

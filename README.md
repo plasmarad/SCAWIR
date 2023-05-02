@@ -1,11 +1,70 @@
-# SCAWIR
-**S**hitty **C**alculator **A**pp **W**ritten **I**n **R**ust.
+#  <span style="color:orange">S.C.A.W.I.R </span> 
+<span style="color: orange; font-weight: bold;">S</span>hitty <span style="color: orange; font-weight: bold;">C</span>alculator <span style="color: orange; font-weight: bold;">A</span>pp <span style="color: orange; font-weight: bold;">W</span>ritten <span style="color: orange; font-weight: bold;">I</span>n <span style="color: orange; font-weight: bold;">R</span>ust. (NOT AFFILIATED OR SPONSORED BY RUST, RUST - The language not the compiler)
 
-@lylythechosenone is a maniac and a massochist.
+ > ###### **Blame it on the new Rust (NOT AFFILIATED OR SPONSORED BY THE RUST FOUNDATION, Rust- the language) Trademark policy**
+<br>
 
-I made him program in C inorder to overcome his Rust addiction, I am doing gods work, however, he would only do so if I programmed in rust (an awful langueg)
-a challenge so painful, but fun to watch lyly suffer.
+<span style="color:orange"> Scawir </span > is a text editor that seeks for modularity/customization, and is also planned to become a console-graphics framework. <br>
+<span style="color:orange"> Scawir </span > also has a built in scripting language.
 
-# Dear Rust Addicts.
-I dont care what you nor cargo have to say,
-PascalCase is better than CamelCase, this is the truth, and to say otherwise is blasphemy.
+# Shortcuts
+> **Warning**
+> not all shortcuts have been implemented
+
+| Keyboard Shortcut | Action            |
+| ----------------- | ----------------- |
+| Ctrl + S          | Save file         |
+| Ctrl + V          | Paste             |
+| Ctrl + C          | Copy              |
+| Ctrl + X          | Cut               |
+| Ctrl + F          | Find              |
+| Ctrl + N          | Open a new tab    |
+| Ctrl + Up/Down    | Scroll down/up    |
+| Ctrl + /          | Switch focus/mode |
+| Ctrl + [0-9]      | Quick Switch tabs |
+| Ctrl + Shift+P    | Open settings     |
+| Alt  + Up/Down    | Swap line up/down |
+| F5                | Reload editor     |
+
+
+
+# Todo's
+
+Here's a list of things that need to be done:
+
+| Task                   | Status | 
+|------------------------|--------| 
+| Basic editing          | ✔️     | 
+| File saving            | ❌     | 
+| File opening           | ❌     | 
+| Line cutting           | ❌     | 
+| Line copying           | ❌     | 
+| Line pasting           | ❌     | 
+| Line swapping          | ❌     | 
+| Line editing           | ✔️     | 
+| Line deleting          | ✔️     | 
+| Line duplicating       | ❌     | 
+| File renaming          | ❌     | 
+| File deleting          | ❌     | 
+| File moving            | ❌     | 
+| File duplicating       | ❌     | 
+| File creating          | ❌     | 
+| Directory creating     | ❌     | 
+| Directory deleting     | ❌     | 
+| Directory renaming     | ❌     | 
+| Directory moving       | ❌     | 
+| Directory duplicating  | ❌     | 
+
+# How to contribute
+here's a basic guide on how to contribute:
+
+- Fork the repository.
+- Clone the forked repository to your local machine.
+- Make your changes or add new features to the code.
+- Test your changes to ensure they work as intended.
+- Commit your changes with clear and concise commit messages.
+- Push your changes to your forked repository.
+- Create a pull request (PR) with a description of the changes you made and why they are valuable.
+- Wait for the maintainers to review and merge your changes.
+
+Remember to follow any specific guidelines or contribution requirements outlined by the project maintainers, and to be respectful and professional in all your interactions with the project and its contributors. Happy contributing!
