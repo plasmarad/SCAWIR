@@ -1,0 +1,10 @@
+[package]
+name = "scawir"
+version = "0.1.0"
+edition = "2021"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+console = "0.15.5"
+termion = "2.0.1"
+toml = "0.7.0"

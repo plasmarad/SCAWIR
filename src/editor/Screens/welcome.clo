@@ -1,0 +1,5 @@
+<- VSpace: 1 ->
+<- "Scawir" center bold color("red") ->
+<- "{S}hitty {C}alculator {A}pplication {W}ritten {I}n {R}ust" center [0-5].color("red") ->
+<- "Press any key to continue"->
+<- "Ver: [@APP_VERNUM]" bold bottom + left color("green") ->

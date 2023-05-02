@@ -1,6 +1,0 @@
-[submodule "element-xrc"]
-	path = src/element-xrc
-	url = https://github.com/plasmarad/element-xrc.git
-[submodule "src/element-xrc"]
-	path = src/element-xrc
-	url = https://github.com/plasmarad/element-xrc.git
