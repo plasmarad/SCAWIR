@@ -1,4 +1,4 @@
-# S.C.A.W.I.R
+# SCAWIR
 **S**hitty **C**alculator **A**pp **W**ritten **I**n **R**ust. (NOT AFFILIATED OR SPONSORED BY RUST, RUST - The language not the compiler)
 
  > ###### **Blame it on the new Rust (NOT AFFILIATED OR SPONSORED BY THE RUST FOUNDATION, Rust- the language) Trademark policy**
@@ -30,19 +30,19 @@ Scawir also has a built in scripting language.
 
 # Todo's
 
-Here's a list of things that need to be done:
+Here's a list of things that need to be done: (*for the new editor*)
 
 | Task                   | Status | 
 |------------------------|--------| 
-| Basic editing          | ✔️     | 
+| Basic editing          | ❌     | 
 | File saving            | ❌     | 
 | File opening           | ❌     | 
 | Line cutting           | ❌     | 
 | Line copying           | ❌     | 
 | Line pasting           | ❌     | 
 | Line swapping          | ❌     | 
-| Line editing           | ✔️     | 
-| Line deleting          | ✔️     | 
+| Line editing           | ❌     | 
+| Line deleting          | ❌     | 
 | Line duplicating       | ❌     | 
 | File renaming          | ❌     | 
 | File deleting          | ❌     | 
@@ -54,7 +54,8 @@ Here's a list of things that need to be done:
 | Directory renaming     | ❌     | 
 | Directory moving       | ❌     | 
 | Directory duplicating  | ❌     | 
-
+> ❌ = Not added <br>
+> ✔️ = added
 # How to contribute
 here's a basic guide on how to contribute:
 
