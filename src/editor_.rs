@@ -78,13 +78,13 @@ pub fn editor(){
         draw(&mut term, &mut header, &mut editor, &command);
             
         match focus {
-            Focus::Editor       => editor_kio (&mut focus, &mut term, &mut editor, &mut cursor),
-            Focus::CommandLine  => cl_kio     (&mut focus, &mut term, &mut command, &mut cursor),
+            Focus::Editor       => editor_kio (&mut focus, &mut term, &mut editor, &mut cursor, &mut header),
+            Focus::CommandLine  => cl_kio     (&mut focus, &mut term, &mut command, &mut cursor, &mut header),
         }
     }
 }
 
-fn editor_kio (focus: &mut Focus,term: &mut console::Term, editor: &mut Vec<String>, cursor: &mut (usize, usize, usize)){
+fn editor_kio (focus: &mut Focus,term: &mut console::Term, editor: &mut Vec<String>, cursor: &mut (usize, usize, usize), header: &mut String){
     term.move_cursor_to(cursor.1+10, cursor.0+2).unwrap();
 
     match term.read_key().unwrap(){
@@ -149,6 +149,7 @@ fn editor_kio (focus: &mut Focus,term: &mut console::Term, editor: &mut Vec<Stri
             }
         },
         Key::Char('\u{18}') =>{
+            *header += "_2_";
             match focus {
                 Focus::Editor       => *focus = Focus::CommandLine,
                 Focus::CommandLine  => *focus = Focus::Editor,
@@ -161,10 +162,11 @@ fn editor_kio (focus: &mut Focus,term: &mut console::Term, editor: &mut Vec<Stri
         _ => {}
     }
 }
-fn cl_kio(focus: &mut Focus , term: &mut console::Term, cmd_line: &mut String, cursor: &mut (usize, usize, usize)){
+fn cl_kio(focus: &mut Focus , term: &mut console::Term, cmd_line: &mut String, cursor: &mut (usize, usize, usize), hdr: &mut String){
     term.move_cursor_to(cursor.2, (term.size().0 - 1).into() ).unwrap();
     match term.read_key().unwrap(){
         Key::Char('\u{18}') =>{
+            *hdr += "_1_";
             match focus {
                 Focus::Editor       => *focus = Focus::CommandLine,
                 Focus::CommandLine  => *focus = Focus::Editor,

@@ -3,6 +3,8 @@ mod editor_;
 
 mod editor;
 
+mod at_editor;
+
 // Editor manages the keyboard and what should be displayed on the screen
 // The layout manages how the screen is displayed
 // The Lang Module manages the language component. (IE: Custom lang's lexer, parser, etc.)
@@ -14,5 +16,12 @@ fn main() {
     editor.Run();
     // * To enable the old editor, uncomment the following lines:
     // editor_::editor();
+
+    //*  beta TUI
+    // let mut editor = at_editor::scawir::default();
+    // ! make custom TUI library
+    // > Main thread
+    // > TUI thread
+    
 }
 
